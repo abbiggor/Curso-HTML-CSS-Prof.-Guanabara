@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio</title>
+</head>
+<body>
+    <h1>Reproduzindo Áudio</h1>
+    <small>Clique <a href="index.html">aqui</a> para retornar à página inicial</small> <br>
+    <!-- Modo mais comum de reproduzir áudio
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src="./midia/mixkit-crickets-and-insects-in-the-wild-ambience-39.wav" controls autoplay></audio>
+    -->
+
+    <audio preload="auto" autoplay controls>
+        <source src="./midia/mixkit-crickets-and-insects-in-the-wild-ambience-39.wav" type="audio/mpeg">
+        <source src="./midia/mixkit-crickets-and-insects-in-the-wild-ambience-39.wav" type="audio/ogg">
+        <source src="./midia/mixkit-crickets-and-insects-in-the-wild-ambience-39.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio <a href="./midia/mixkit-crickets-and-insects-in-the-wild-ambience-39.wav">Clique aqui para baixar o arquivo WAV.</a></p>
+    </audio>
+</body>
+</html>

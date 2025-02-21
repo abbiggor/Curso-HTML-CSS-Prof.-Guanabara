@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <small>Clique <a href="index.html">aqui</a> para retornar à página inicial</small>
+    <p>Altere a resolução do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="Imagem flexível">
+    </picture>
+
+    
+
+</body>
+</html>
